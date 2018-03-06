@@ -33,6 +33,33 @@ Secondly, ensure the JSOC-RPC server is actually running now on the target machi
 See also [https://www.reddcointalk.org/topic/302/reddcoin-conf]
 
 ### Usage
+##### Get the API library
+For now - until published on the maven repo - there are two ways to get the library:
+
+1. get the four jars from the lib directory and put them into your own project.
+If you are already using the Jackson JSON library with a recent version, you only need the `reddcoin-rpc-japi-{version}.jar`.
+
+2. the probably easier way is to clone this git project and publish it to your own local maven repository:
+```
+git clone https://github.com/janhoeve/reddcoin-rpc-japi.git
+cd reddcoin-rpc-japi
+./gradlew publishToMavenLocal
+```
+After that, just add a maven dependency
+```
+<dependency>
+  <groupId>com.reddcoin</groupId>
+  <artifactId>reddcoin-rpc-japi</artifactId>
+  <version>{version}</version>
+  <scope>compile</scope>
+</dependency>
+```
+or a gradle dependency
+```
+compile 'com.reddcoin:reddcoin-rpc-japi:{version}'
+```
+
+##### Use the API
 The starting point for using the API is the `ReddcoinClient` class, it has static methods to initialize. 
 From that point, just follow the return types. Or even better: use it in a fluent way.
 
