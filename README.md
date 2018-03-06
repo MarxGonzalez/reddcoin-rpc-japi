@@ -8,6 +8,8 @@ If you are happy with it, feel free to donate to this Reddcoin address: `RZjC6eF
 
 And of course: please create an issue or a PR when you've found a bug or have a feature request.
 
+Many thanks to [Surfer058](https://github.com/Surfer058/Reddcoin-.NET-Core-API) for his work on the response types!
+
 ## Contents of this readme
 
 **[Next steps](#next-steps)**<br>
