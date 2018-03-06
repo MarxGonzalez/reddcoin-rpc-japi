@@ -1,11 +1,14 @@
 # Reddcoin RPC Java Api #
 
-This API implements most Reddcoin JSON-RPC commands.
+This API provides easy access to the Reddcoin JSON-RPC interface.
+
 The goal is to offer an API with a 'fluent style'. With the help of a decent IDE, the API is self-explaining.
 
 If you are happy with it, feel free to donate to this Reddcoin address: `RZjC6eF849pXpzrQiHzG9BSDoGGVap2MfY`.
 
 And of course: please create an issue or a PR when you've found a bug or have a feature request.
+
+## Contents of this readme
 
 **[Next steps](#next-steps)**<br>
 **[Installation](#installation)**<br>
