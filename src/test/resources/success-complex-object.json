@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "result": {
+    "account": "test account",
+    "amount": 1234.567890,
+    "confirmations": 6
+  },
+  "error": null
+}

@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "result": [
+    {
+      "account": "test account 1",
+      "amount": 1234.567890,
+      "confirmations": 6
+    },
+    {
+      "account": "test account 2",
+      "amount": 0.567890,
+      "confirmations": 6
+    }
+  ],
+  "error": null
+}
